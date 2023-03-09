@@ -1,0 +1,55 @@
+.slider .button {
+  background-color: #7952b3;
+  border: 1px solid #7952b3;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 12px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+  margin-bottom: 50px;
+}
+.slider .button:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .slider .button {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  .slider h5 {
+    font-size: 16px;
+  }
+  .slider h1 {
+    font-size: 30px;
+  }
+  .slider p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item img {
+    height: 300px !important;
+    width: auto !important;
+  }
+  .slider .button {
+    font-size: 8px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
+  .slider h5 {
+    font-size: 14px;
+  }
+  .slider h1 {
+    font-size: 25px;
+  }
+  .slider p {
+    font-size: 15px;
+  }
+}

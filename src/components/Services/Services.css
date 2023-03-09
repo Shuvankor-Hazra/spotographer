@@ -1,0 +1,19 @@
+.services-area {
+  padding: 30px 0;
+}
+.services-area .single-service {
+  border: 1px solid #d7d7d7;
+  border-radius: 0 0 6px 6px;
+}
+.services-area .button {
+  background-color: #7952b3;
+  border: 1px solid #7952b3;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  padding: 6px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s;
+}

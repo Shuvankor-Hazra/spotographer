@@ -1,0 +1,25 @@
+.header {
+  margin-bottom: 73px;
+}
+.header .navbar-nav a {
+  margin: 0 10px;
+}
+.header .navbar-nav a:last-child {
+  background-color: #7952b3;
+  padding: 6px 40px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0;
+  border: 1px solid #7952b3;
+  transition: 0.3s;
+}
+.header .navbar-nav a:last-child:hover {
+  background-color: transparent;
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}

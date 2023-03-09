@@ -1,0 +1,9 @@
+.about-text-area h3 {
+  font-size: 18px;
+}
+
+@media (max-width: 776px) {
+  .about-text-area {
+    text-align: center;
+  }
+}
